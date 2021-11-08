@@ -3,3 +3,53 @@ body {
     padding: 0;
     font-family: 'roboto', sans sans-serif;
 }
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.section-1 {
+    width: 100%;
+    background-color: #F5F5F5;
+    padding-bottom: 50px;
+}
+.ville {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    background-color: #EFEFEF;
+}
+.ville i {
+    margin-right: 15px;
+    color: grey;
+}
+p {
+    margin: 10px;
+}
+#fonction,
+.decouverte {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.decouverte h2,
+.decouverte p {
+    width: 80%;
+    text-align: center;
+}
+.explore {
+    display: flex;
+    justify-content: center;
+}
+.restaurant {
+    margin-top: 20px;
+    padding: 12px 30px;
+    border-radius: 25px;
+    color: white;
+    font-size: 15px;
+    background-image: linear-gradient(#FF79DA, #9356DC);
+    cursor: pointer;
+}
