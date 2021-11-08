@@ -1,7 +1,11 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: 'roboto', sans sans-serif;
+    font-family: 'roboto', sans-serif;
+}
+.logo {
+    font-family: 'Shrikhand', cursive;
+    font-size: 35px;
 }
 .header {
     display: flex;
@@ -135,4 +139,35 @@ figcaption .far {
     color: grey;
     cursor: pointer;
     transition: opacity 0.2s;
+}
+footer {
+    padding-top: 10px;
+    background-color: black;
+}
+.liens {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: auto;
+}
+.liens h2 {
+    color: white;
+    font-family: 'Shrikhand', cursive;
+    margin: 0;
+}
+.liens nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+.liens ul {
+    display: flex;
+    justify-content: space-between;
+}
+.liens nav li {
+    margin: 15px 25px;
+}
+.liens a {
+    text-decoration: none;
+    color: white;
 }
