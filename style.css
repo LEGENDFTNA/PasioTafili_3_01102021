@@ -21,7 +21,8 @@ body {
     height: 60px;
     background-color: #EFEFEF;
 }
-.ville i {
+.ville i,
+#fonction i {
     margin-right: 15px;
     color: grey;
 }
@@ -52,4 +53,29 @@ p {
     font-size: 15px;
     background-image: linear-gradient(#FF79DA, #9356DC);
     cursor: pointer;
+}
+.section-2 h2 {
+    margin: 15px 25px;
+}
+#fonction div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 60px;
+    background-color: #F5F5F5;
+    cursor: pointer;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    position: relative;
+}
+.numero {
+    width: 18px;
+    padding: 7px;
+    color: white;
+    background-color: #9356DC;
+    border-radius: 50%;
+    position: absolute;
+    left: -10px;
+    text-align: center;
 }
