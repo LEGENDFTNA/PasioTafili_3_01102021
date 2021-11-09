@@ -130,6 +130,20 @@ p {
 .titre-menu {
     margin: 40px;
 }
+.titre .far {
+    position: absolute;
+    right: 40px;
+    top: 46px;
+    font-size: 25px;
+    color: grey;
+    cursor: pointer;
+}
+#le-menu h3 {
+    margin-left: 20px;
+    font-size: 15px;
+    position: relative;
+    color: grey;
+}
 .section-3 a {
     text-decoration: none;
     color: black;
