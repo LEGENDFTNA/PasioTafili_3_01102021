@@ -109,9 +109,20 @@ p {
     background-image: linear-gradient(#FF79DA, #9356DC);
     cursor: pointer;
 }
+.restaurant:hover {
+	background-image: linear-gradient(to bottom,#FFB3EB, #FF79DA, #9356DC);
+	box-shadow: 0px 10px 10px lightgrey;
+}
 .section-2 h2,
 .section-3 h2 {
     margin: 15px 25px;
+}
+#fonction div:hover {
+	background-color: #F8EEFE;
+}
+
+#fonction div:hover i {
+	color: #9356DC;
 }
 #fonction div {
     display: flex;
@@ -229,9 +240,72 @@ p {
 	white-space: nowrap;
 	overflow: hidden;
 }
+.bloc-plat-entre, .bloc-plat, .bloc-dessert {
+	animation: apparition 1s forwards; 
+}
+.bloc-plat-entre:nth-child(1) {
+	animation-delay: 0.2s;
+}
+.bloc-plat-entre:nth-child(2) {
+	animation-delay: 0.4s;
+}
+.bloc-plat-entre:nth-child(3) {
+	animation-delay: 0.6s;
+}
+.bloc-plat-entre:nth-child(4) {
+	animation-delay: 0.8s;
+}
+.bloc-plat:nth-child(1) {
+	animation-delay: 1s;
+}
+.bloc-plat:nth-child(2) {
+	animation-delay: 1.2s;
+}
+.bloc-plat:nth-child(3) {
+	animation-delay: 1.4s;
+}
+.bloc-dessert:nth-child(1) {
+	animation-delay: 1.6s;
+}
+.bloc-dessert:nth-child(2) {
+	animation-delay: 1.8s;
+}
+.bloc-dessert:nth-child(3) {
+	animation-delay: 2s;
+}
+@keyframes apparition{
+	0% {
+		opacity: 0;
+		transform: translateY(20px);
+	}
+	
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+.bloc-plat-entre:hover .valide,
+.bloc-plat:hover .valide,
+.bloc-dessert:hover .valide {
+	animation: slide-left .5s forwards;
+}
+.bloc-plat-entre:hover .fa-check,
+.bloc-plat:hover .fa-check,
+.bloc-dessert:hover .fa-check {
+	transform: rotate(360deg);
+	transition: transform 0.5s;
+}
 .section-3 a {
     text-decoration: none;
     color: black;
+}
+@keyframes slide-left {
+	0% {
+		right: -70px;
+	}
+	100% {
+		right: 0;
+	}
 }
 figure {
     width: 560px;
@@ -298,7 +372,7 @@ footer {
     justify-content: space-between;
 }
 .liens nav li {
-    margin: 7px 15px;
+    margin: 15px 25px;
 }
 .liens a {
     text-decoration: none;
