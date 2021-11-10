@@ -235,11 +235,14 @@ footer {
     justify-content: space-between;
 }
 .liens nav li {
-    margin: 15px 25px;
+    margin: 7px 15px;
 }
 .liens a {
     text-decoration: none;
     color: white;
+}
+footer i {
+    margin-right: 10px;
 }
 @media screen and (max-width: 680px) {  /*-----mobile------*/
     body {
@@ -271,7 +274,7 @@ footer {
         align-items: flex-start;
     }
     .liens h2 {
-        margin-left: 45px;
+        margin-left: 35px;
     }
     .liens nav ul {
         margin-left: 20px;
