@@ -138,7 +138,7 @@ p {
     color: grey;
     cursor: pointer;
 }
-#le-menu h3 {
+.le-menu h3 {
     margin-left: 20px;
     font-size: 15px;
     position: relative;
