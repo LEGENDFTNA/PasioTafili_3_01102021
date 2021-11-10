@@ -260,12 +260,22 @@ footer {
         height: 100%;
         border-radius: 15px;
     }
-    footer {
+    footer nav ul {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
         background-color: black;
-        align-content: center;
+        align-content: flex-start;
     }
+    .liens {
+        align-items: flex-start;
+    }
+    .liens h2 {
+        margin-left: 45px;
+    }
+    .liens nav ul {
+        margin-left: 20px;
+    }
+
 
 }
