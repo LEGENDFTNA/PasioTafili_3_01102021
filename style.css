@@ -497,3 +497,134 @@ footer i {
 
 
 }
+@media all and (min-width: 680px) and (max-width: 900px)/* tablette */
+{
+	.image {
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	figure {
+		padding: 0;
+		margin: 30px 20px;
+	}
+	.image-haut {
+		height: 350px;
+	}
+	.section-2 h2, .section-3 h2 {
+		text-align: center;
+	}
+	.section-3 {
+		margin-top: 25px;
+	}
+	.footer {
+		height: 120px;
+	}
+	.liens ul {
+		display: flex;
+		justify-content: space-between;
+		margin-right: 15px;
+	}
+}
+@media all and (min-width: 901px) and (max-width: 1200px)/* PC */
+{
+	.image {
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	figure {
+		margin: 30px 25px;
+		width: 400px;
+		height: 265px;
+		position: relative;
+		margin-bottom: 25px;
+	}
+	.titre .far, .titre .fas {
+		right: 60px;
+	}
+	.titre-menu {
+		margin-left: 60px;
+	}
+	.footer {
+		height: 120px;
+	}
+	.liens ul {
+		display: flex;
+		justify-content: space-between;
+	}
+	.liens nav li {
+		margin: 15px 25px;
+	}
+		
+	.liens {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-around;
+		width: auto;
+	}
+	.image-haut {
+		height: 400px;
+	}
+
+}
+@media all and (min-width: 1201px)/* grand écran */
+{
+	.header {
+		height: 80px;
+	}
+	.fa-arrow-left {
+		font-size: 25px;
+		left: 60px;
+		top: 27px;
+	}
+	.images {
+		flex-direction: row;
+		justify-content: center;
+		flex-wrap: wrap;
+}
+	figure {
+		width: 560px;
+		height: 370px;
+		position: relative;
+		margin: 35px;
+	}
+	.sect_2 h2, .sect_3 h2 {
+		margin-left: 60px;
+	}
+	.top .far, .top .fas {
+		right: 70px;
+		top: 50px;
+	}
+	.titre_menu {
+		margin: 40px;
+	}
+	.fond_gris h3 {
+		margin-left: 40px;
+	}
+	.bloc_plats {
+		width: 80%;
+	}
+	.footer {
+		height: auto;
+		padding-left: 0; 
+	}
+	.liens ul {
+		display: flex;
+		justify-content: space-between;
+	}
+	.liens nav li {
+		margin: 15px 25px;
+	}
+	.liens {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-around;
+		width: auto;
+	}
+	.image-haut {
+		height: 400px;
+	}
+}
