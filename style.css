@@ -453,6 +453,9 @@ footer {
     text-decoration: none;
     color: white;
 }
+.liens a:hover {
+    color: #FF79DA;
+}
 footer i {
     margin-right: 10px;
 }
