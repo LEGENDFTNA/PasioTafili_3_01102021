@@ -494,7 +494,9 @@ footer i {
     .liens nav ul {
         margin-left: 20px;
     }
-
+    .liens nav li {
+        margin: 8px 25px;
+    }
 
 }
 @media all and (min-width: 680px) and (max-width: 900px)/* tablette */
