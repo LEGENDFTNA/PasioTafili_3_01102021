@@ -579,7 +579,7 @@ footer i {
 		left: 60px;
 		top: 27px;
 	}
-	.images {
+	.image {
 		flex-direction: row;
 		justify-content: center;
 		flex-wrap: wrap;
@@ -590,20 +590,20 @@ footer i {
 		position: relative;
 		margin: 35px;
 	}
-	.sect_2 h2, .sect_3 h2 {
+	.section-2 h2, .section-3 h2 {
 		margin-left: 60px;
 	}
-	.top .far, .top .fas {
+	.titre .far, .titre .fas {
 		right: 70px;
 		top: 50px;
 	}
-	.titre_menu {
+	.titre-menu {
 		margin: 40px;
 	}
-	.fond_gris h3 {
+	.le-menu h3 {
 		margin-left: 40px;
 	}
-	.bloc_plats {
+	.bloc-plats {
 		width: 80%;
 	}
 	.footer {
