@@ -349,7 +349,7 @@ figcaption .far {
 }
 footer {
     padding-top: 10px;
-    background: color #e4e4e4;;
+    background: color #353535;;
 }
 .liens {
     display: flex;
@@ -404,7 +404,7 @@ footer i {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        background-color: black;
+        background-color: #353535;
         align-content: flex-start;
     }
     .liens {
