@@ -195,6 +195,27 @@ p {
     font-size: 25px;
     color: grey;
     cursor: pointer;
+    transition: opacity 0.2s;
+}
+.titre .far:hover {
+	opacity: 0;
+}
+
+.titre .fas {
+	position: absolute;
+	right: 40px;
+	top: 30px;
+	font-size: 25px;
+	background: linear-gradient(#FF79DA, #9356DC);
+	-webkit-background-clip: text;
+	-moz-background-clip: text;
+	cursor: pointer;
+	color: transparent;
+	opacity: 0;
+	transition: opacity 0.5s;
+}
+.titre .fas:hover {
+	opacity: 1;
 }
 .le-menu h3 {
     margin-left: 20px;
@@ -209,6 +230,9 @@ p {
 	width: 40px;
 	height: 3px;
 	bottom: -5px;
+}
+h3 {
+    margin-left: 15px;
 }
 .bloc-menu {
     margin: 0;
@@ -294,11 +318,37 @@ p {
 	justify-content: center;
 	align-items: center;
 }
-.bloc-plat-entre:hover .fa-check,
-.bloc-plat:hover .fa-check,
-.bloc-dessert:hover .fa-check {
+.bloc-plats:hover .fa-check {
 	transform: rotate(360deg);
 	transition: transform 0.5s;
+}
+.prix {
+	width: 70px;
+	height: 65px;
+	background-color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 20px;
+	font-weight: bold;
+	border-radius: 0 20px 20px 0;
+}
+.fa-check {
+	color: #99E2D0;
+	background-color: white;
+	font-size: 20px;
+	width: 18px;
+	padding: 7px;
+	border-radius: 50%;
+}
+.prix-valide {
+	background-color: #99E2D0;
+	border-radius: 0 15px 15px 0;
+	width: 70px;
+	height: 65px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 .section-3 a {
     text-decoration: none;
@@ -345,16 +395,37 @@ figcaption {
 }
 figcaption .far {
     position: absolute;
-    right: 30px;
-    top: 20px;
-    font-size: 25px;
-    color: grey;
-    cursor: pointer;
-    transition: opacity 0.2s;
+   right: 30px;
+   top: 20px;
+   font-size: 25px;
+   color: grey;
+   cursor: pointer;
+   transition: opacity 0.2s;
+}
+figcaption .far:hover {
+   opacity: 0;
+}
+figcaption .fas {
+   position: absolute;
+   right: 30px;
+   top: 20px;
+   font-size: 25px;
+   background: linear-gradient(#FF79DA, #9356DC);
+   -webkit-background-clip: text;
+   -moz-background-clip: text;
+   cursor: pointer;
+   color: transparent;
+   opacity: 0;
+   transition: opacity 0.5s;
+}
+figcaption .fas:hover {
+   opacity: 1;
 }
 footer {
-    padding-top: 10px;
-    background: color #353535;;
+	height: 180px;
+	padding-left: 25px;
+	padding-top: 10px;
+    background-color: #353535;;
 }
 .liens {
     display: flex;
