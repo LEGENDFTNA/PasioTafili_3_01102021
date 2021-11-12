@@ -218,9 +218,7 @@ p {
     justify-content: center;
     align-items: center;
 }
-.bloc-plat-entre,
-.bloc-plat,
-.bloc-dessert {
+.bloc-plats {
     position: relative;
     width: 90%;
     height: 65px;
@@ -233,44 +231,45 @@ p {
     opacity: 0;
     overflow: hidden;
 }
-.bloc-plat-entre p,
-.bloc-plat p,
-.bloc-dessert p {
+.bloc-plats p {
     text-overflow: ellipsis;
 	white-space: nowrap;
 	overflow: hidden;
 }
-.bloc-plat-entre, .bloc-plat, .bloc-dessert {
+.bloc_plats:hover p {
+	width: 60%;
+}
+.entre, .plat, .dessert {
 	animation: apparition 1s forwards; 
 }
-.bloc-plat-entre:nth-child(1) {
+.entre:nth-child(1) {
 	animation-delay: 0.2s;
 }
-.bloc-plat-entre:nth-child(2) {
+.entre:nth-child(2) {
 	animation-delay: 0.4s;
 }
-.bloc-plat-entre:nth-child(3) {
+.entre:nth-child(3) {
 	animation-delay: 0.6s;
 }
-.bloc-plat-entre:nth-child(4) {
+.entre:nth-child(4) {
 	animation-delay: 0.8s;
 }
-.bloc-plat:nth-child(1) {
+.plat:nth-child(1) {
 	animation-delay: 1s;
 }
-.bloc-plat:nth-child(2) {
+.plat:nth-child(2) {
 	animation-delay: 1.2s;
 }
-.bloc-plat:nth-child(3) {
+.plat:nth-child(3) {
 	animation-delay: 1.4s;
 }
-.bloc-dessert:nth-child(1) {
+.dessert:nth-child(1) {
 	animation-delay: 1.6s;
 }
-.bloc-dessert:nth-child(2) {
+.dessert:nth-child(2) {
 	animation-delay: 1.8s;
 }
-.bloc-dessert:nth-child(3) {
+.dessert:nth-child(3) {
 	animation-delay: 2s;
 }
 @keyframes apparition{
@@ -284,10 +283,16 @@ p {
 		transform: translateY(0);
 	}
 }
-.bloc-plat-entre:hover .valide,
-.bloc-plat:hover .valide,
-.bloc-dessert:hover .valide {
+.bloc-plats:hover .valide {
 	animation: slide-left .5s forwards;
+}
+.valide {
+	position: absolute;
+	right: -70px;
+	top: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 .bloc-plat-entre:hover .fa-check,
 .bloc-plat:hover .fa-check,
