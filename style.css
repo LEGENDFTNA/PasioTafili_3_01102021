@@ -195,12 +195,10 @@ p {
     font-size: 25px;
     color: grey;
     cursor: pointer;
-    transition: opacity 0,2s;
+    transition: opacity 0.2s;
 }
 .titre .far:hover {
-	opacity: 0.6;
-    color: #FF79DA;
-    transition-delay: 350ms;
+	opacity: 0;
 }
 
 .titre .fas {
@@ -405,9 +403,7 @@ figcaption .far {
    transition: opacity 0.2s;
 }
 figcaption .far:hover {
-    opacity: 0.6;
-    color: #FF79DA;
-    transition-delay: 350ms;
+   opacity: 0;
 }
 figcaption .fas {
    position: absolute;
