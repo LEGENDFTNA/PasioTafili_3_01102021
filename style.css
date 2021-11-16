@@ -472,6 +472,9 @@ footer i {
         position: relative;
         margin-bottom: 25px;
     }
+    .titre .fas {
+        top: 45px;
+    }
     image img {
         object-fit: cover;
         width: 100%;
@@ -510,6 +513,9 @@ footer i {
 		padding: 0;
 		margin: 30px 20px;
 	}
+    .titre .fas {
+        top: 45px;
+    }
 	.image-haut {
 		height: 350px;
 	}
