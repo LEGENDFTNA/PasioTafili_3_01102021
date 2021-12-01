@@ -79,7 +79,7 @@ body {
 .ville i,
 #fonction i {
     margin-right: 15px;
-    color: #e4e4e4;;
+    color: gray;
 }
 p {
     margin: 10px;
@@ -323,7 +323,7 @@ h3 {
 	transition: transform 0.5s;
 }
 .prix {
-	width: 70px;
+	width: 55px;
 	height: 65px;
 	background-color: white;
 	display: flex;
